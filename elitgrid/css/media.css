@@ -1,0 +1,5 @@
+@media(max-width:600px)
+{
+    .header {grid-template-columns: 1fr;}
+    .subheader {grid-template-columns: 2fr;}
+}    

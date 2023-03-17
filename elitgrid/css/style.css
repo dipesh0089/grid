@@ -1,0 +1,89 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+.header
+{
+    /* height: 50px; */
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    line-height: 50px;
+    /* padding: 25px 0; */
+}
+ .x
+{
+    /* border-right: 1px solid blue; */
+}
+.header i 
+{
+    color:#2fdab8;
+}
+
+
+.subheader
+{
+    /* height: 150px; */
+    /* background: chocolate; */
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: center;
+    line-height: 150px;
+}
+.subheader .search
+{
+    height: 150px;
+}
+.subheader .search input
+{
+    height: 50px;
+    width: 70%;
+    color:gray;
+    font-size: 18px;
+    /* outline: none; */
+}
+.subheader .search input:focus
+{
+    outline: none;
+}
+.subheader .search button
+{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background:#2fdab8;
+}
+
+
+.subheader .cname span
+{
+    background: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+/* .subheader .icon .fa-facebook
+{
+    background: balck;
+} */
+
+.x1
+{
+    border: 1px solid red;
+}
+.card 
+{
+    height: 400px;
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 20px;
+    grid-gap: 20px;
+}
+
+
+
+
+
+
+
+
