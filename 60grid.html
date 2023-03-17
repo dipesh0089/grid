@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header
+        {
+            height: 120px;
+            background: green;
+            display: grid;
+            grid-template-columns: 25fr 75fr;
+
+        }
+        .a,.y,.g
+        {
+            border: 2px solid blue;
+        }
+        .nav
+        {
+            height: 80px;
+            background: orange;
+
+        }
+        .content
+        {
+            height: 320px;
+            background: aqua;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        }
+        .footer
+        {
+            height: 100px;
+            background: coral;
+
+        }
+        .test
+        {
+            display: grid;
+        }
+        .test2
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+
+        @media(max-width:800px)
+        {
+            .header{grid-template-columns: 1fr 1fr;}
+
+            .content
+            {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .test2{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="log a">logo</div>
+        <div class="cname a">company name</div>
+    </div>
+    <div class="nav">nav</div>
+    <div class="content">
+        <div class="a">ghdfhg</div>
+        <div class="a test">
+            <div class="y test2">
+                <div class="g">g1</div>
+                <div class="g">g2</div>
+                <div class="g">g3</div>
+            </div>
+            <div class="y">y2</div>
+        </div>
+        <div class="a">ys5</div>
+        <div class="a">yd</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
